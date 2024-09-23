@@ -1,0 +1,166 @@
+*{margin: 0%; padding: 0%; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif;}
+html, body{height: 100% width: 100%;}
+
+#main{height: 100% width: 100%;}
+
+#div1{
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 70px;
+}
+#div1 h3{
+    background-color: #000000;
+    color: white;
+    padding: 16px 26px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 28px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+#div2{
+    height: 260px;
+    width: 100%;
+    position: absolute;
+    top: 8%;
+    padding-left: 70px;
+}
+#div2 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130px;
+    letter-spacing: -5px;
+}
+#div3{
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    top: 39%;
+    display: flex;
+    justify-content: space-between;
+}
+#div3 h3{
+    font-size: 31px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px 70px;
+}
+#img{
+    position: absolute;
+    top: 48%;
+    height: 85%;
+    width: 100%;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero.webp);
+    background-size: cover;
+}
+#about{
+    position: absolute;
+    top: 133%;
+    left: 3.5%;
+    height: 45%;
+    width: 62%;
+    border-bottom: 2px solid black;
+}
+#about h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    padding-top: 10px;
+    font-weight: 600;
+    letter-spacing: -4`px;
+    word-spacing: 4px;
+
+}
+#about2{
+    position: absolute;
+    top: 136%;
+    right: 3.5%;
+    height: 35%;
+    width: 30%;
+    border-left: 2px solid black;
+}
+#about2 h3{
+    padding-left: 40px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+#icon{
+    position: absolute;
+    top: 167%;
+    right: 24%;
+
+}
+#icon i{
+    font-size: 17px;
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+
+}
+#whatidomain{
+    height: 500px;
+    width: 90%;
+    position: absolute;
+    top: 180%;
+    left: 90px;
+}
+#whatido{
+    height: 400px;
+    width: 35%;
+    position: absolute;
+    top: 11%;
+    display: flex;
+    justify-content: space-between;
+    border-right: 2px solid black;
+}
+#whatido h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+#whatido i{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 50px;
+}
+#whatido2{
+    height: 100%;
+    width: 65%;
+    position: absolute;
+    top: 11%;
+    right: 0px;
+    padding: 0% 55px;
+}
+.whatido{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 65px 0%;
+}
+.whatido:nth-child(1){
+    border-bottom: 2px solid black;
+    padding-top: 0%;
+}
+.whatido .elm{
+    width: 50%;
+    height: 100%;
+}
+.whatido .elm:nth-child(1){
+    border-right: 2px solid black;
+    padding-right: 50px;
+}
+.whatido .elm:nth-child(2){
+    padding-left: 60px;
+}
+whatido .elm h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+whatido .elm p{
+    font-size: 30px;
+
+}
